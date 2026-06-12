@@ -1,3 +1,6 @@
+# ===========================================
+# Backend (Spring Boot / Maven)
+# ===========================================
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,3 +34,51 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ===========================================
+# Frontend (Umi / React / Node)
+# ===========================================
+
+# dependencies
+**/node_modules
+
+# roadhog-api-doc
+user-center-frontend/src/utils/request-temp.js
+_roadhog-api-doc
+
+# Umi
+.umi
+.umi-production
+
+# production build
+user-center-frontend/dist
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+# coverage
+user-center-frontend/coverage
+
+# lock files (frontend)
+user-center-frontend/yarn.lock
+user-center-frontend/package-lock.json
+user-center-frontend/pnpm-lock.yaml
+
+# backup files
+*bak
+
+# husky internal
+user-center-frontend/.husky/_
+
+# history / logs
+.history
+*.log
+functions/*
+.temp/**
+
+# screenshot / misc
+screenshot
+.firebase
+.eslintcache
